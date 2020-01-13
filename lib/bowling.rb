@@ -12,8 +12,7 @@ class Bowling
     end
     
     #スコアを追加する
-    def add score(pins)
+    def add_score(pins)
         @total_score += pins
     end
-
 end
