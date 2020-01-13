@@ -10,11 +10,11 @@ describe "ボウリングのスコア計算" do
                     @game.add_socore(0)
                 end
                 
-                expect(@game.total_score).to eq()
+                expect(@game.total_score).to eq ()
             end
-            
+        end
             context "全ての投球で1ピンずつ倒した場合" do
-                it "20になること"　do
+                it "20になること" do
                     @game = Bowling.new
                     
                     20.times do
